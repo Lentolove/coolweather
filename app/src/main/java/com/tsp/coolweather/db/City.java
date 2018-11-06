@@ -1,12 +1,13 @@
 package com.tsp.coolweather.db;
 
-import org.litepal.crud.LitePalSupport;
+
+import org.litepal.crud.DataSupport;
 
 /**
  * DataSupport is deprecated and will be removed in the future release.
- * For model inheritance, use {@link LitePalSupport} instead.
+ * For model inheritance, use {@link } instead.
  */
-public class City extends LitePalSupport {
+public class City extends DataSupport {
         private int id;
         private String cityName;
         private int cityCode;
